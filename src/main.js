@@ -168,7 +168,7 @@ var fillSearchProductsResults = function (data) {
     let searchBox = $("#currentQuery");
     let query = searchBox.val();
     let isTitleSet = false;
-    if (document.title === "Free Books") {
+    if (document.title === "Happy Vehicle") {
         if (query) {
             document.title = 'Результаты поиска Купить: ' + query;
             isTitleSet = true;
@@ -278,7 +278,7 @@ var fillProduct = function (data) {
             + "Вы можете посмотреть полное опиание продукта на сайте магазина, для этого нажмите "
             + "<a href=\"" + data["referalLink"].replace('https://af.gdeslon.ru/cc/', '/buy/') + "\">сюда</a>.");
 
-        $('head').append('<meta name="description" content="' + data["name"] + ' Выгодное предложение от Free Books!">');
+        $('head').append('<meta name="description" content="' + data["name"] + ' Выгодное предложение от Happy Vehicle!">');
     }
     else {
         descriptionBox.html(data["description"]);
