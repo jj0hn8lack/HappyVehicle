@@ -1,4 +1,6 @@
-﻿const apiDomain = "https://ufostore.herokuapp.com/";
+﻿//const apiDomain = "https://ufostore.herokuapp.com/";
+const apiDomain = "https://ufoback.herokuapp.com/";
+
 const booksBaseCategoryId = 139;
 
 var generateCouponCard = function (coupon) {
